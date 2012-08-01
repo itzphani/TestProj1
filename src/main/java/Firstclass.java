@@ -18,7 +18,12 @@ public class Firstclass {
     @Test
     public void test(){
     driver.get("http://www.google.com");
-    driver.findElement(By.id("gbqfq")).sendKeys("phani");
+
+        driver.findElement(By.id("gbqfq")).sendKeys("phani");
+
+        driver.findElement(By.id("gbqfq")).sendKeys("phani");
+
+        driver.findElement(By.id("gbqfq")).sendKeys("phani");
 
 
 
